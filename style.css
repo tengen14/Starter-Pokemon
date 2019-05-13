@@ -1,0 +1,87 @@
+body {
+    font-family: 'Press Start 2P';
+    background-color: #f2f2f2;
+}
+.column-height {
+    height: 550px;
+}
+.border-blur {
+    box-shadow: 0 0 10px;
+}
+
+strong {
+    font-size: 1.05rem;
+}
+
+hr {
+    margin-top: 2rem;
+}
+
+.poke-imgs {}
+
+/* NAVBAR */ 
+.nes-pokeball {
+    transform: scale(0.5);
+    margin-right: -0.6rem;
+}
+.dropdown-menu {
+    background-color: #99c0ff;
+}
+
+/* SECTION #1*/
+#section1 {
+    background-color: white;
+    margin-bottom: 3rem;
+    margin-top: 8rem;
+} 
+span {
+    color: mediumvioletred;
+    font-family: monospace;
+    font-size: 3rem;
+}
+
+/* SECTION #2 */
+#section2 {
+    background-color: #d6ffdd; 
+    margin-bottom: 3rem;
+}
+
+#leaf {
+    color: green;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* SECTION #3 */
+#section3 {
+    background-color: #ffe8c6;
+    margin-bottom: 3rem;
+}
+#fire {
+    font-size: 2.4rem;
+    color:#ea5809;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* SECTION #4 */
+#section4 {
+    background-color: #dbe9ff;
+    margin-bottom: 3rem;
+}
+#water {
+    font-size: 2.4rem;
+    color: #4289f4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  p, strong {
+    font-size: 0.8rem;
+  }
+}
+
